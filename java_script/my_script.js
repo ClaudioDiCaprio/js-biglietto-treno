@@ -5,7 +5,7 @@ const priceOnKm = 0.21;
 let price = priceOnKm * (km);
 let discount; 
 
-if (age < 18) {
+if (age < 18){
     
     a = price * 20;
     b = a / 100;
@@ -22,5 +22,5 @@ else {
     discount = price;
 }
 
-document.getElementById('ticket').innerHTML = 'price' +  discount;
+document.getElementById('ticket').innerHTML = 'price' +  Math.floor( discount );
 
