@@ -22,5 +22,5 @@ else {
     discount = price;
 }
 
-document.getElementById('ticket').innerHTML = 'price in € :' + discount.toFixed(2);
+document.getElementById('ticket').innerHTML = 'price in  :' + discount.toFixed(2)+' €';
 
