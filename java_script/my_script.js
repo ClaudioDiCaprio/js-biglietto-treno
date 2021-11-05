@@ -15,12 +15,12 @@ else if  (age > 64){
     
     a = price * 40;
     b = a / 100;
-    discount = price - b;
+    discount = price - b ;
 }
 
 else {
     discount = price;
 }
 
-document.getElementById('ticket').innerHTML = 'price' +  Math.floor( discount );
+document.getElementById('ticket').innerHTML = 'price in € :' + discount.toFixed(2);
 
